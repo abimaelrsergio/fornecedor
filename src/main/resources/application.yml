@@ -1,14 +1,10 @@
+
 server:
   port: 8081
-  
-# from: https://spring.io/guides/gs/accessing-data-mysql/
-spring:
-  application:
-    name: 'fornecedor'
-    
+
 eureka:
- client:
-  register-with-eureka: true
-  fetch-registry: true
-  service-url: 
-   defaultZone: http://localhost:8761/eureka      
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka
